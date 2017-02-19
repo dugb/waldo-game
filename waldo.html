@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Where's Waldo?</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="waldo.css">
+    <script src="https://use.fontawesome.com/ca6e360dc0.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+            <h1><i class="fa fa-search" aria-hidden="true"></i>  Where's Waldo?</h1>
+            <p>A find the hidden characters and objects in a picure game.</p>
+        </div>  
+    <p>
+    <h3>Find these characters and objects on the map.</h3>
+    <img id="imgCharList" src="images/waldo-f.jpg" alt="Wheres Waldo Game, Characters.">
+    </p>
+    <img id="imgMap" src="images/waldo-space.jpg" alt=" Wheres Waldo Game, Space Map.">
+
+	<div id="test">
+        <div id="btnBox">
+            Who did you find?<br>
+            <button  id="btnWaldo" type = "button" class="btn btn-default">Waldo</button>
+            <button id="btnWenda" type = "button" class="btn btn-default">Wenda</button>
+            <button id="btnOdlaw" type = "button" class="btn btn-default">Odlaw</button>
+            <button id="btnWizard" type = "button" class="btn btn-default">Wizard Whitebeard</button>
+            <button id="btnBinocs" type = "button" class="btn btn-default">Odlaw's Binoculars</button>
+            <button id="btnCamera" type = "button" class="btn btn-default">Wenda's Camera</button>
+            <button id="btnScroll" type = "button" class="btn btn-default">Scroll</button>
+            <button id="btnKey" type = "button" class="btn btn-default">Key</button>
+            <button id="btnWoof" type = "button" class="btn btn-default">Woof</button>
+            <button id="btnBone" type = "button" class="btn btn-default">Bone</button>
+            <button id="btnCancel" type = "button" class="btn btn-warning">Cancel</button>
+        </div>
+     </div>
+
+
+</div>
+<!-- Script tags only below here -->
+<script type="text/javascript" src ="lib/jquery-3.1.1.js"></script>
+<script type="text/javascript" src ="waldo-data.js"></script>
+<script type="text/javascript" src = "waldo.js"></script>
+</body>
+</html>

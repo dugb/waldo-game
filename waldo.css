@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	background-color: rgb(220, 220, 220);
+	color: rgb(45, 45, 55);
+	/*font-family: "Arial", "Monserrat", "Avenir";*/
+}
+h1 {
+	font-size: 50px;
+	padding: 2px;
+}
+
+h3 {
+	font-size: 20px;
+	padding: 2px;
+
+}
+
+
+#imgMap {
+	border: 5px dashed red;
+	padding: 2px;
+
+}
+
+#imgCharList {
+	padding: 2px;
+
+}
+
+#btnBox{
+	color: black;
+	font-size: 40px;
+	background-color: cyan;
+	max-width: 400px;
+}
+
+button {
+	padding: 2px;
+}
